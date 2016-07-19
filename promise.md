@@ -36,5 +36,17 @@ promise
 ```
 在 catch中是err的对象
 
-## Promise
+## Promise 
+### Promise化 非Promise方法
+
+```
+function2Promise = function(a)
+
+  Promsie = new Promise()
+  return new Promise (resolve,reject)->
+    func1 a,(err,cb)->
+      if err return reject(err)
+      else return resolve(cb) #可以不要return  习惯了--。
+  ```
+  
 
