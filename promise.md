@@ -1,6 +1,8 @@
 # Promise
 ## 为什么使用Promise
-```func1("xxx", function (err,cb) {
+
+```
+func1("xxx", function (err,cb) {
   // something
   func2("xxx", function (err,cb) {
     // something
