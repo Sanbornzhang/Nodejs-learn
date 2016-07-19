@@ -1,4 +1,4 @@
-# jade
+# Jade
 Jade 是一个高性能的模板引擎，它深受 Haml 影响，它是用 JavaScript 实现的，并且可以供 Node 使用。 （百度的。。。）
 
 # div calss的一些使用
