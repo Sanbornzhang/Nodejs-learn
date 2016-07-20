@@ -7,3 +7,4 @@
 ## sqlite
 ## mocha
 ## strongloop
+## pipe
