@@ -8,3 +8,4 @@
 ## mocha
 ## strongloop
 ## pipe
+## chai
