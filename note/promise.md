@@ -49,4 +49,6 @@ function2Promise = function(a)
       else return resolve(cb) #可以不要return  习惯了--。
   ```
   
+## Promise reject
+在非`Promise`中可以使用 reject 这个方法来return err
 
