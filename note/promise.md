@@ -38,7 +38,7 @@ promise
 
 ## Promise 
 ### Promise化 非Promise方法
-ma
+
 ```
 function2Promise = function(a)
 
