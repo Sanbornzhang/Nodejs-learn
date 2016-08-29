@@ -38,7 +38,7 @@ promise
 
 ## Promise 
 ### Promise化 非Promise方法
-
+ma
 ```
 function2Promise = function(a)
 
@@ -52,3 +52,11 @@ function2Promise = function(a)
 ## Promise reject
 在非`Promise`中可以使用 reject 这个方法来return err
 
+## Promise.map
+ `Promise.map` 是比较常用的一个方法了
+ ```
+ Promise.map vListItems,(vItem,vIndex)->
+   Promise function
+ .then ()->
+ .catch (err)->
+ ```
