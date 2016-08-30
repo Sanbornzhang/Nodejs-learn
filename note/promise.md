@@ -60,3 +60,8 @@ function2Promise = function(a)
  .then ()->
  .catch (err)->
  ```
+
+##  [nodeschool推荐学习Promise的模块](http://nodeschool.io/zh-cn/#workshopper-list)
+```
+npm install -g promise-it-wont-hurt
+```
