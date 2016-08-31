@@ -15,6 +15,15 @@ func1("xxx", function (err,cb) {
 ```
 这段代码嵌套的回掉并不长。。。 要是要很多异步 很多cb的话。。。感觉上就很麻烦
 使用promise的话就相对简单一点
+```
+promiseFunction()
+.then ()->
+  promiseFunction1()
+.then ()->
+  promiseFunction12()
+.then ()->
+  promiseFunction12()
+```
 
 ## Promise 基础
 在nodejs 基本上用的是 bluebird
