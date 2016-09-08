@@ -23,4 +23,27 @@ refer to : http://coffee-script.org/
   a=['1','2','3','4','5']
   console.log a.indexOf('4')
   ```
+# 运算符
+```
+a ?= b
+a or= b
+```
+设置默认值
+`a = b unless a`
+# @
+@name 和 this.name　一个意思
+
+# 参数列(...)
+既可以用来接收参数(普通参数具有优先性)
+又可以用来分割数组
+```
+function1 = (v1,v2...) ->
+  console.log v1
+  console.log v2
+function1(1,2,2,2,2,2,3)
+
+vArrayList = [1,2,3,4,5,6,7]
+[a..., b] = vArrayList
+console.log a
+```
   mark 一下！
