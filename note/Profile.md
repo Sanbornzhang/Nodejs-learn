@@ -13,7 +13,7 @@
 8. node命令   : [Node.js 调试 GC 以及内存暴涨的分析](http://blog.csdn.net/shmnh/article/details/46437933)
 9. chrome `chrome://about/` `chrome://tracing/`
 10. http://www.tuicool.com/articles/UNbuyyI
-
+11. https://github.com/petkaantonov/bluebird/wiki/Optimization-killers
 ## 内存泄露追踪
 
 devTool 
