@@ -7,3 +7,10 @@ callback = arguments[arguments.length - 1];
 ```
 ##　__dirname
 获取当前目录的绝对路径
+# export
+```
+module.exports =
+  test: (aValue)->
+      console.log aValue
+# exports.test=test;
+```
