@@ -43,7 +43,7 @@ function1 = (v1,v2...) ->
 function1(1,2,2,2,2,2,3)
 
 vArrayList = [1,2,3,4,5,6,7]
-[a..., b] = vArrayList
+[...a,...b] = vArrayList
 console.log a
 ```
   mark 一下！
