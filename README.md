@@ -1,11 +1,60 @@
-# Nodjs边做边学
-## coffee
+# Node.js
+
+## Bases
+### Array
+
+### Map
+
+### Set
+
+### Object
+
+## stream
+
 ## Promise
-## Jade
+
+## EventEmitter
+
+## aysnc/await
+
+## Event loop
+
+# Package || middleware
+
+## DataBases
+### mysql [关系型数据库]
+### mongodb [非关系型数据库]
+### PostgreSQL 
+
+## other||middleware?
+### Redis
+### 持久化
+#### RDB
+快照
+#### AOF
+备份
+### mqtt
+
+### kafka
+### kue
+
+# Framework
+
 ## express
-## sequelizejs 
-## sqlite
-## mocha
-## strongloop
-## pipe
+## koa
+## loopback
+## Egg
+
+# Test
 ## chai
+## mocha
+## should
+## istanbul
+
+# Algorithm
+
+# Others
+## HTTP 协议
+## nginx/apache
+## lisp
+## haskell
