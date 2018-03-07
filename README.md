@@ -26,7 +26,7 @@
 ### mongodb [非关系型数据库]
 ### PostgreSQL 
 
-## other||middleware?
+## other
 ### Redis
 ### 持久化
 #### RDB
