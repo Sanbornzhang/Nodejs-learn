@@ -186,3 +186,13 @@ realArray.length //5
 可选参数，执行回调函数 mapFn 时 this 对象。
 #### 返回值
 一个新数组
+
+> ### 比较有意思的写法
+```
+const doChunk = (list, size) => list.reduce((r, v) =>
+  (!r.length || r[r.length - 1].length === size ?
+    r.push([v]) : r[r.length - 1].push(v)) && r
+, []);
+r -> 返回的整个集合
+v -> 本次 value
+```
