@@ -197,12 +197,14 @@ const doChunk = (list, size) => list.reduce((r, v) =>
 r -> 返回的整个集合
 v -> 本次 value
 ```
+
 #### 交换顺序
 ```
 Array.prototype.move = function(from,to){
   this.splice(to,0,this.splice(from,1)[0]);
   return this;
-};```
+};
+```
 
 #### 行列转换
 ```
