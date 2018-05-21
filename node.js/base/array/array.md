@@ -186,3 +186,33 @@ realArray.length //5
 可选参数，执行回调函数 mapFn 时 this 对象。
 #### 返回值
 一个新数组
+
+> ### 比较有意思的写法
+#### 切割成二维数组
+```
+const doChunk = (list, size) => list.reduce((r, v) =>
+  (!r.length || r[r.length - 1].length === size ?
+    r.push([v]) : r[r.length - 1].push(v)) && r
+, []);
+r -> 返回的整个集合
+v -> 本次 value
+```
+
+#### 交换顺序
+```
+Array.prototype.move = function(from,to){
+  this.splice(to,0,this.splice(from,1)[0]);
+  return this;
+};
+```
+
+#### 行列转换
+```
+function transpose(arr) {
+  return Object.keys(arr[0]).map(function (c) {
+    return arr.map(function (r) {
+      return r[c];
+    });
+  });
+}
+```
